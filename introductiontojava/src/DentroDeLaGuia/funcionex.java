@@ -25,12 +25,12 @@ public class funcionex {
 	public static String codificar(String quote) {
 		String newQuote;
 		
-		newQuote= quote.replace("a","@");
-		newQuote= newQuote.replace("e","#");
-		newQuote= newQuote.replace("i","$");
-		newQuote= newQuote.replace("o","%");
-		newQuote= newQuote.replace("u","*");
-		return newQuote;
+		quote= quote.replace("a","@");
+		quote= quote.replace("e","#");
+		quote= quote.replace("i","$");
+		quote= quote.replace("o","%");
+		quote= quote.replace("u","*");
+		return quote;
 	}
 	
 	

@@ -14,7 +14,7 @@ public class forLoop {
 		double num1;
 		
 		for(int i= 0 ; i <= 3 ; i++) {
-			num= (int) Math.round(Math.random()*10);
+			num= (int) Math.round(Math.random()*20);
 			
 			System.out.println(num + " *".repeat(num));
 		}
