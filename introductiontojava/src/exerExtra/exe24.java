@@ -17,6 +17,24 @@ public class exe24 {
 //		Por lo tanto, si queremos calcular el término “n” debemos escribir una función que reciba
 //		como parámetro el valor de “n” y que calcule la serie hasta llegar a ese valor.
 		
+		int [] arrF = new int[10];
+		
+		fibo(arrF,10);
+		for (int i = 0; i < 10; i++) {
+			System.out.println(arrF[i]);
+		}
+	}
+	
+	public static void fibo(int [] arr, int num ) {
+		int aux = 0;
+		for(int i=0 ; i < num ; i++) {
+			if(i <= 1) {
+				arr[i] = 1;
+			} else {
+				arr[i] = arr[i-2] + (arr[i-1]);
+			}
+	
+		}
 		
 	}
 }
