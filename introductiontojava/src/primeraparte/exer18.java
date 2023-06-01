@@ -33,9 +33,9 @@ public class exer18 {
 	
 	public static void escribir(int [][] matriz, int d){
 			
-			for(int i = 0 ; i <= d-1 ; i++) {
-				for(int j = 0 ; j <= d- 1; j++) {
-				System.out.print(matriz[i][j]+ "  ");
+			for(int i = d -1 ; i >= 0 ; i--) {
+				for(int j = d -1  ; j >= 0; j--) {
+				System.out.print(matriz[j][i]+ "  ");
 				}
 				System.out.println("");
 			}
