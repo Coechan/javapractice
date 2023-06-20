@@ -25,15 +25,12 @@ public class exe12 {
 			if(i < 10) {
 				contador = "0-0-" + contadorInt;
 				arr[i] = contador;
-				//System.out.println(contador);
 			} else if (i < 100) {
 				contador = "0-" + contadorInt.substring(0,1) +"-" + contadorInt.substring(1, 2);
 				arr[i] = contador;
-				//System.out.println(contador);
 			} else {
 				contador = contadorInt.substring(0,1) + "-" + contadorInt.substring(1, 2) + "-" + contadorInt.substring(2, 3);
 				arr[i] = contador;
-				//System.out.println(contador);
 			}
 			
 		};

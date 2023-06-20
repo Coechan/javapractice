@@ -21,7 +21,7 @@ public class exer14 {
 		
 		System.out.println("Ingrese el monto de euros a convertir");
 		euros = exe14.nextInt();
-		System.out.println("Ingrese la moneda a convertir: dolares, venes o libras");
+		System.out.println("Ingrese la moneda a convertir: dolares, yenes o libras");
 		moneda = exe14.next();
 		
 		moneda= moneda.toLowerCase();
@@ -39,8 +39,8 @@ public class exer14 {
 		case "libras":
 			System.out.println("Los " + mon1 + " euros son: " + (mon1* 0.86) + " libras.");
 			break;
-		case "venes":
-			System.out.println("Los " + mon1 + " euros son: " + (mon1* 126.852) + " venes.");
+		case "yenes":
+			System.out.println("Los " + mon1 + " euros son: " + (mon1* 126.852) + " yenes.");
 			break;
 		default:
 			System.out.println("No ingreso una moneda valida.");

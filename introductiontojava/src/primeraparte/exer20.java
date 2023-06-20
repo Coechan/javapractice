@@ -7,33 +7,16 @@ public class exer20 {
 //		permita introducir un cuadrado por teclado y determine si este cuadrado es mágico o no.
 //		El programa deberá comprobar que los números introducidos son correctos, es decir,
 //		están entre el 1 y el 9.
+		
 		int dim1, dim2;
 		dim1 = 3;
 		dim2 = 3;
 		
-		//int[][] matrizQ = new int[dim1][dim2];
-		
-		//crearCuadrado(matrizQ,dim1,dim2);
 		imprimir(crearCuadrados(dim1,dim2), dim1 ,dim2);
 		
 		
 	}
-	
-	public static void crearCuadrado(int [][] matrix, int dim1, int dim2) {
 		
-		for (int i = 0; i < dim1; i++) {
-			for (int j = 0; j < dim2; j++) {
-			 int num = (int) Math.round(Math.random()*9);
-			 if(num == 0) {
-				 num= 1;
-			 }
-			 matrix[i][j] = num;
-			}
-		}
-
-		
-	}
-	
 	public static void imprimir(int [][] matrix,int dim1, int dim2) {
 		
 		for (int i = 0; i < dim1; i++) {
